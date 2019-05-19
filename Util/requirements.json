@@ -1,0 +1,27 @@
+{
+  "submodules" : {
+    "Code/BlackRoot" : {
+      "name"   : "BlackRoot",
+      "remote" : "https://github.com/JeroenDStout/Ap-Code-BlackRoot.git",
+      "branch" : "public-develop"
+    },
+    "Util/Repo" : {
+      "name"   : "Repo",
+      "remote" : "https://github.com/JeroenDStout/Ap-Util-Repo.git",
+      "branch" : "public-develop"
+    }
+  },
+  "pip" : [
+    { "package" : "gitpython" }
+  ],
+  "(example) npm" : [
+    { "package" : "typescript" },
+    { "package" : "create-react-app" },
+    { "package" : "pnpm" },
+    { "package" : "sass" }
+  ],
+  "(example) pnpm" : [
+    { "install" : "Code/IrisBase/Pub_ts/iris-front" },
+    { "install" : "Code/IrisWidget/Pub_ts/Widgets" }
+  ]
+}
