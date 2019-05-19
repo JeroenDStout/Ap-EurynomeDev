@@ -5,6 +5,11 @@
       "remote" : "https://github.com/JeroenDStout/Ap-Code-BlackRoot.git",
       "branch" : "public-develop"
     },
+    "Code/Eurynome" : {
+      "name"   : "Eurynome",
+      "remote" : "https://github.com/JeroenDStout/Ap-Code-Eurynome.git",
+      "branch" : "public-template"
+    },
     "Util/Repo" : {
       "name"   : "Repo",
       "remote" : "https://github.com/JeroenDStout/Ap-Util-Repo.git",
